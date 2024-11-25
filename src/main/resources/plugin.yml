@@ -1,0 +1,18 @@
+name: benders_application_plugin
+version: '0.0.1-alpha'
+main: com.nextdevv.benders_application_plugin.MysticChests
+api-version: '1.21'
+authors: [ nextdevv ]
+website: nextdevv.com
+prefix: MysticChests
+commands:
+    mysticchest:
+        description: Open a mystic chest
+        usage: /mysticchest
+        permission: benders_application_plugin.mysticchests
+        aliases: [mc]
+
+permissions:
+    benders_application_plugin.mysticchests:
+        description: Allows the player to open a mystic chest
+        default: true
